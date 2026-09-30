@@ -1,0 +1,12 @@
+Analysis,Metric,Value,Notes
+Repeated sample spread vs final CDR-H3 error,Spearman rho,0.413,Full-set replication 1
+Repeated sample spread vs final CDR-H3 error,Spearman rho,0.434,Full-set replication 2
+Quarter-trajectory aligned disagreement vs final error,Spearman rho,0.443,Framework-aligned
+Unaligned final disagreement vs final error,Spearman rho,-0.025,Not informative
+Hard-vs-easy classification from sample spread,ROC AUC,0.786,
+ESM2 best single-layer probe,ROC AUC,0.9158,
+ESM2 anchor-only representation,ROC AUC,0.9209,
+ESM2 multilayer perceptron probe,ROC AUC,0.9236,
+ESM2 shuffled-label control,ROC AUC,0.4999,Chance-level control
+Difficult targets ever recovered below 2 A,Targets,2.0,2 of 30
+Median best-of-80 CDR-H3 RMSD for difficult targets,Angstrom,4.36,
